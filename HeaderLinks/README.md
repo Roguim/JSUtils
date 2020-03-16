@@ -2,7 +2,7 @@
 ## Description
 Add in-document links using this JS addon. It will automatically create links to all your h1-h6 elements, respecting ids as it goes.
 ## Usage
-Add the js file to your folder and add `<script src="HeaderLinks.js" defer></script>`.``
+Add the js file to your folder and add `<script src="HeaderLinks.js" defer></script>`.
 It will automatically add links to each of your h1-h6 elements into your first <header> element.
 ## Documentation
 If you want to make an element not appear in there, you can just add the class "invisible" to it.
