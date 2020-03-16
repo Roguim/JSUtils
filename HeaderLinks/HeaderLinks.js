@@ -17,6 +17,9 @@ function MakeHeader(element) {
 }
 for (n = 1; n <= 6; n++) {
     for (i = 0; i < document.getElementsByTagName(`h${n}`).length; i++) {
-        MakeHeader(document.getElementsByTagName(`h${n}`)[i]);
+        document.getElementsByTagName(`h${n}`)[i].classList.add('HeaderLinks-Heading');
     }
+}
+for (i = 0; i < document.getElementsByClassName('HeaderLinks-Heading').length; i++) {
+    MakeHeader(document.getElementsByClassName('HeaderLinks-Heading')[i]);
 }
