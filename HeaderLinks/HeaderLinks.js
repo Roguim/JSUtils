@@ -10,6 +10,7 @@ function MakeHeader(element) {
         name = element.innerHTML;
         link = document.createElement('a');
         link.innerHTML = name;
+        link.classList.add(element.nodeName);
         link.href = document.URL.slice(0, -1)+`#${element.id}`;
         document.getElementsByTagName('header')[0].append(link);
     }
